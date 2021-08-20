@@ -9,8 +9,8 @@ const Header = () =>  (
         <Div1>
             <a href="/">
                 <a style={{ display: 'flex', alignItems: 'center', color:"white", marginBottom:'20px'}}>
-                    <img src="https://img.icons8.com/nolan/32/share-2.png" alt={"logo"}/>
-
+                    {/*<img src="https://img.icons8.com/nolan/32/share-2.png" alt={"logo"}/>*/}
+                    <img src="https://img.icons8.com/nolan/32/briefcase.png" alt={"logo"}/>
                      <Span>Portfolio</Span>
                 </a>
             </a>
