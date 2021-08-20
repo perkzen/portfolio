@@ -1,4 +1,4 @@
-import {Section,SectionText, SectionTitle} from '../../styles/GlobalComponents';
+import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {LeftSection} from "../Hero/HeroStyles";
 import MyPhoto from "../BackgroundImage/MyPhoto";
 

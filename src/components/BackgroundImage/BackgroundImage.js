@@ -1,7 +1,8 @@
 import React from 'react';
+import {BgImg} from "./BackgroundImageStyle";
 
 const BackgroundImage = () => (
-        <div>
+        <BgImg>
             <svg id="a57f6051-90d9-4b0f-831b-7c7398482616" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"
                  width="800" height="450" viewBox="0 0 878.63037 483">
                 <path
@@ -63,7 +64,7 @@ const BackgroundImage = () => (
                     d="M679.55259,302.45164h-3.262c0-44.73-33.65638-81.12069-75.026-81.12069-41.36939,0-75.02605,36.3907-75.02605,81.12069h-3.262c0-46.6749,35.11988-84.64766,78.288-84.64766C644.433,217.804,679.55259,255.77677,679.55259,302.45164Z"
                     transform="translate(-160.68481 -208.5)" fill="#366fe2"/>
             </svg>
-        </div>
+        </BgImg>
     )
 ;
 
