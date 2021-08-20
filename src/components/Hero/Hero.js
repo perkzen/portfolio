@@ -13,8 +13,7 @@ const Hero = (props) => (
         </SectionTitle>
         <SectionText>
             {/* eslint-disable-next-line react/no-unescaped-entities */}
-            Hi I'm Domen, I'm a software development student from Maribor, Slovenia.
-            Thank you for check out my portfolio website. 😀
+            Hi I'm Domen, a software development student from Maribor, Slovenia.
         </SectionText>
     </LeftSection>
   </Section>

@@ -1,8 +1,7 @@
 import {Section,SectionText, SectionTitle} from '../../styles/GlobalComponents';
-
-
 import {LeftSection} from "../Hero/HeroStyles";
 import MyPhoto from "../BackgroundImage/MyPhoto";
+
 
 const AboutMe = () => {
 
@@ -18,7 +17,7 @@ const AboutMe = () => {
                     is a never-ending puzzle that I am passionately engaged in solving. <br/>
                 </SectionText>
             </LeftSection>
-            <MyPhoto/>
+           <MyPhoto/>
         </Section>
     );
 };

@@ -11,7 +11,6 @@ import {
     TagList,
     TitleContent,
     UtilityList,
-    Img
 
 } from './ProjectsStyles';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
@@ -26,7 +25,7 @@ const Projects = () => (
             {projects.map((p, i) => {
                 return (
                     <BlogCard key={i}>
-                        <Img src={p.image} />
+                        {/*<img src={p.image}  alt={"project"}/>*/}
                         <TitleContent>
                             <HeaderThree title>{p.title}</HeaderThree>
                             <Hr />

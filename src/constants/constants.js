@@ -1,8 +1,9 @@
+
 export const projects = [
     {
         title: 'Blockchain Todo List',
         description: "I made this app using React for front-end and solidity for back-end. Each wallet address that is connected to the website has his own todo list. You can create, delete and toggle your todo items.",
-        image: '/images/project1.png',
+        image:"",
         tags: ['Solidity', 'React'],
         source: 'https://github.com/perkzen/Blockchain_todo_list',
         id: 0,
