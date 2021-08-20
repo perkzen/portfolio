@@ -1,6 +1,4 @@
-
 import React from 'react';
-import {Link} from "react-router-dom";
 
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
