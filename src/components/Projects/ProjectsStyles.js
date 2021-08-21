@@ -82,6 +82,10 @@ export const CardInfo = styled.p`
     padding: .3rem
 
   }
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 2rem;
+
+  }
 `;
 
 

@@ -13,7 +13,7 @@ function App() {
         <div>
             <Theme>
                 <Layout>
-                    <Section grid>
+                    <Section grid nopadding>
                         <Hero/>
                         <BackgroundImage/>
                     </Section>
