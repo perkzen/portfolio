@@ -26,7 +26,7 @@ export const projects = [
 
 
     {
-        title: 'Študenski Servis Web scraper',
+        title: 'Študenski Servis Web Scraper',
         description: "Python web scraping bot for the job portal \"Študentski Servis\". The bot will scrape all jobs depending on the search parameters you give him. The end results will be displayed in an excel spreadsheet.",
         tags: ['Python',  'Web Scraping'],
         source: 'https://github.com/perkzen/Studentski_servis_webscraper',
