@@ -9,7 +9,7 @@ export const projects = [
 
     {
         title: 'Home Art Gallery',
-        description: "This was a university project where I was the team leader. We build a full-stack web, that allows you to create your own virtual gallery, in which the user will be able to share images of their artwork with other visitors and users of the site.",
+        description: "This was a university project where I was the team leader. We build a full-stack web app, that allows you to create your own virtual gallery, in which the user will be able to share images of their artwork with other visitors and users of the site.",
         tags: ['html','Javascript', 'node.js', 'sql'],
         source: 'https://gitlab.com/DomenPerko/homeartgallary',
         id: 1,
