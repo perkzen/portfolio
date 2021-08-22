@@ -1,9 +1,20 @@
 import Carousel from "react-elastic-carousel";
 import {BlogCard, CardInfo, ExternalLinks, HeaderThree, Hr, TagList, TitleContent, UtilityList} from "./ProjectsStyles";
-import {FaDiscord, FaEthereum, FaJava, FaPython, FaReact, SiJavascript} from "react-icons/all";
+import {
+    FaDiscord,
+    FaEthereum,
+    FaHtml5,
+    FaJava,
+    FaNodeJs,
+    FaPython,
+    FaReact,
+    SiJavascript,
+    SiMysql
+} from "react-icons/all";
 import {projects} from '../../constants/constants';
+
 export const ProjectCarousel = () => {
-    return ( <Carousel>
+    return (<Carousel>
         {projects.map((p, i) => {
             return (
                 <BlogCard key={i}>
@@ -28,13 +39,18 @@ export const ProjectCarousel = () => {
                                     case "React":
                                         return <FaReact key={i} style={{height: "50px", width: "50px"}}/>
 
-                                    case "JavaScript":
+                                    case "Javascript":
                                         return <SiJavascript key={i} style={{height: "50px", width: "50px"}}/>
                                     case "Solidity":
                                         return <FaEthereum key={i} style={{height: "50px", width: "50px"}}/>
                                     case "Discord.py":
                                         return <FaDiscord key={i} style={{height: "50px", width: "50px"}}/>
-
+                                    case "node.js":
+                                        return <FaNodeJs key={i} style={{height: "50px", width: "50px"}}/>
+                                    case "sql":
+                                        return <SiMysql key={i} style={{height: "50px", width: "50px"}}/>
+                                    case "html":
+                                        return <FaHtml5 key={i} style={{height: "50px", width: "50px"}}/>
                                 }
                             })}
                         </TagList>
