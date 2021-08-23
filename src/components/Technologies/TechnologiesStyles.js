@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 export const List = styled.ul`
   list-style-type: none;
+  text-align: center;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;

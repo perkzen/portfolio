@@ -5,6 +5,7 @@ import {ProjectCarousel} from "./ProjectCarousel";
 
 
 
+
 const Projects = () => {
     const mql = window.matchMedia('(max-width: 600px)');
     const mobileView = mql.matches;

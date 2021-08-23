@@ -5,8 +5,8 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
     <Section id="tech">
-        <SectionDivider divider />
-        <SectionTitle style={{padding:"10px"}}>{"<Technologies/>"}</SectionTitle>
+        <SectionDivider  />
+        <SectionTitle main>{"<Technologies/>"}</SectionTitle>
         <SectionText>
             I’m familiar with a variety of programming languages, including JavaScript, Python, Java and Solidity, but I’m always adding new skills to my repertoire.
         </SectionText>
@@ -48,7 +48,7 @@ const Technologies = () =>  (
                 </ListContainer>
             </ListItem>
         </List>
-        <SectionDivider style={{marginBottom:"40px"}}/>
+        <SectionDivider />
     </Section>
 );
 

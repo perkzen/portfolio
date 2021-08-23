@@ -1,9 +1,7 @@
 import React from 'react';
-
 import {Section, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {LeftSection} from './HeroStyles';
-import BackgroundImage from "../BackgroundImage/BackgroundImage";
-import MyPhoto from "../BackgroundImage/MyPhoto";
+
 
 
 const Hero = (props) => (

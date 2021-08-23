@@ -59,7 +59,6 @@ export const NavLink = styled.a`
   overflow: hidden;
   &:hover {
     color: #fff;
-    text-decoration: underline;
     opacity: 1;
     cursor: pointer;
   }
@@ -76,7 +75,9 @@ export const NavLink = styled.a`
 export const SocialIcons = styled.a`
   transition: 0.3s ease;
   color: white;
-  border-radius: 50px;
+  border-radius: 50%;
+  width: 46px;
+  height: 46px;
   padding: 8px;
 
   &:hover {
@@ -84,5 +85,28 @@ export const SocialIcons = styled.a`
     transform: scale(1.2);
     cursor: pointer;
 
+  }
+`
+
+
+export const AnimatedLink = styled.a`
+  position: relative;
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #206aff, #3565ff, #465fff, #5458ff, #6251ff, #714cff, #7e47ff, #8b40ff, #9b3bff, #aa35ff, #b92dff, #c722ff);
+
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:hover:before {
+    visibility: visible;
+    width: 100%;
   }
 `

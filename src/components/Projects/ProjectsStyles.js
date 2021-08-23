@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const Img = styled.img`
-  border-radius: 10px;
+  border-radheadius: 10px;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -49,7 +49,7 @@ export const HeaderThree = styled.h3`
   letter-spacing: 2px;
   color: #fff;
   padding: .5rem 0;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.header ? '3rem' : '2rem'};
 `;
 
 export const Hr = styled.hr`
@@ -119,4 +119,15 @@ export const Tag = styled.li`
   color: #fff;
   font-size: 1.5rem;
   text-decoration: underline;
+`
+
+export const Btn = styled.button`
+  color: #fff;
+  font-size: 1.6rem;
+  padding: 1rem 1.5rem;
+  background-color: #0058ff !important;
+  border-radius: 15px;
+  transition: 0.5s;
+  border: none !important;
+  cursor: pointer;
 `

@@ -10,30 +10,31 @@ import {
     SiMysql
 } from "react-icons/all";
 
-export const ProjectTags = ({tag,key}) => {
+export const ProjectTags = ({tag,i}) => {
 
+    // eslint-disable-next-line default-case
     switch (tag) {
         case "Java":
-            return <FaJava key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaJava key={i} style={{height: "50px", width: "50px"}}/>
 
         case "Python":
-            return <FaPython key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaPython key={i} style={{height: "50px", width: "50px"}}/>
 
         case "React":
-            return <FaReact key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaReact key={i} style={{height: "50px", width: "50px"}}/>
 
         case "Javascript":
-            return <SiJavascript key={key} style={{height: "50px", width: "50px"}}/>
+            return <SiJavascript key={i} style={{height: "50px", width: "50px"}}/>
         case "Solidity":
-            return <FaEthereum key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaEthereum key={i} style={{height: "50px", width: "50px"}}/>
         case "Discord.py":
-            return <FaDiscord key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaDiscord key={i} style={{height: "50px", width: "50px"}}/>
         case "node.js":
-            return <FaNodeJs key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaNodeJs key={i} style={{height: "50px", width: "50px"}}/>
         case "sql":
-            return <SiMysql key={key} style={{height: "50px", width: "50px"}}/>
+            return <SiMysql key={i} style={{height: "50px", width: "50px"}}/>
         case "html":
-            return <FaHtml5 key={key} style={{height: "50px", width: "50px"}}/>
+            return <FaHtml5 key={i} style={{height: "50px", width: "50px"}}/>
 
     }
 }

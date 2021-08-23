@@ -1,4 +1,4 @@
-import {Section, SectionDivider, SectionText, SectionTitle} from '../../styles/GlobalComponents';
+import {Section, SectionText, SectionTitle} from '../../styles/GlobalComponents';
 import {LeftSection} from "../Hero/HeroStyles";
 import MyPhoto from "../BackgroundImage/MyPhoto";
 
@@ -8,7 +8,7 @@ const AboutMe = () => {
     return (
         <Section row nopadding id={"about"}>
             <LeftSection>
-                <SectionTitle style={{padding: "10px"}}>
+                <SectionTitle main>
                     {"<AboutMe/>"} <br/>
                 </SectionTitle>
                 <SectionText>
