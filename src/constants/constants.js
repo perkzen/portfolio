@@ -27,7 +27,7 @@ export const projects = [
 
     {
         title: 'Študenski Servis Bot',
-        description: "Python web scraping bot for the job portal \"Študentski Servis\". The bot will scrape all jobs depending on the search parameters you give him. The end results will be displayed in an excel spreadsheet.",
+        description: "Python web scraping bot for the job portal \"Študentski Servis\". The bot will scrape all jobs on the site depending on the search parameters you give him. The end results will be displayed in an excel spreadsheet.",
         tags: ['Python'],
         source: 'https://github.com/perkzen/Studentski_servis_webscraper',
         id: 3,
@@ -36,7 +36,7 @@ export const projects = [
 
     {
         title: 'Sudoku Solver',
-        description: "This program solves every given sudoku board in record time using the backtracking algorithm.Backtracking is a general algorithm for finding solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution.",
+        description: "This program solves every given sudoku board in record time using the backtracking algorithm. Backtracking is a general algorithm for finding solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution.",
 
         tags: ['Java'],
         source: 'https://github.com/perkzen/sudoku-solver',
@@ -44,7 +44,7 @@ export const projects = [
     },
     {
         title: 'Tower of Hanoi Solver',
-        description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instruction for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
+        description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instructions for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
 
         tags: ['Java'],
         source: 'https://github.com/perkzen/Tower_of_Hanoi_solver',
