@@ -44,7 +44,7 @@ export const projects = [
     },
     {
         title: 'Tower of Hanoi Solver',
-        description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instructions for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
+        description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instructionsn for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
 
         tags: ['Java'],
         source: 'https://github.com/perkzen/Tower_of_Hanoi_solver',
