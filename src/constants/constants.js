@@ -6,23 +6,23 @@ export const projects = [
         source: 'https://github.com/perkzen/Blockchain_todo_list',
         id: 0,
     },
-
-    {
-        title: 'Home Art Gallery',
-        description: "This was a university project where I was the team leader. We build a full-stack web app, that allows you to create your own virtual gallery, in which the user will be able to share images of their artwork with other visitors and users of the site.",
-        tags: ['html','Javascript', 'node.js', 'sql'],
-        source: 'https://gitlab.com/DomenPerko/homeartgallary',
-        id: 1,
-    },
-
-
     {
         title: 'Discord Crypto Bot',
         description: "I made this bot, so I could get stats about a specific cryptocurrency fast without needing to search the web. When I write the command to fetch data about the specific cryptocurrency that I want, the Bot scrapes a crypto exchange a retrieves the latest data about the coin.",
         tags: ['Python', 'Discord.py'],
         source: 'https://github.com/perkzen/Discord-Crypto-Bot',
+        id: 1,
+    },
+
+    {
+        title: 'Home Art Gallery',
+        description: "This was a university project where I was the team leader. We build a full-stack web app, that allows you to create your own virtual gallery, in which the user will be able to share images of their artwork with other visitors and users of the site.",
+        tags: ['html', 'Javascript', 'node.js', 'sql'],
+        source: 'https://gitlab.com/DomenPerko/homeartgallary',
         id: 2,
     },
+
+
 
 
     {
@@ -35,17 +35,18 @@ export const projects = [
 
 
     {
-        title: 'Sudoku Solver',
-        description: "This program solves every given sudoku board in record time using the backtracking algorithm. Backtracking is a general algorithm for finding solutions to some computational problems, notably constraint satisfaction problems.",
-        tags: ['Java'],
-        source: 'https://github.com/perkzen/sudoku-solver',
+        title: 'Online shop',
+        description: "This is the first project where I used implemented a full back-end logic. I have learnt a lot about node.js and also about boostrap by making this project. I've also implemented a admin user so he can add and delete products from the shop.",
+        tags: ['bootstrap', 'Javascript', 'node.js', "SqlLite"],
+        source: 'https://github.com/perkzen/Online_shop',
         id: 4,
     },
+
     {
-        title: 'Tower of Hanoi Solver',
-        description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instructionsn for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
+        title: 'MP3 Player',
+        description: "This was a university project where me and my friend built a MP3 player desktop app. We made the GUI using the Swing library. The MP3 player has the basic functionalities to play/pause, skip song and go to prev song.",
         tags: ['Java'],
-        source: 'https://github.com/perkzen/Tower_of_Hanoi_solver',
+        source: 'https://github.com/perkzen/MP3-Player',
         id: 5,
     },
 ];

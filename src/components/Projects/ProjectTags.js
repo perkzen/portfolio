@@ -1,9 +1,9 @@
 import {
+    DiSqllite, FaBootstrap,
     FaDiscord,
     FaEthereum,
     FaHtml5,
-    FaJava,
-    FaNodeJs,
+    FaJava, FaNode,
     FaPython,
     FaReact,
     SiJavascript,
@@ -30,12 +30,15 @@ export const ProjectTags = ({tag,i}) => {
         case "Discord.py":
             return <FaDiscord key={i} style={{height: "50px", width: "50px"}}/>
         case "node.js":
-            return <FaNodeJs key={i} style={{height: "50px", width: "50px"}}/>
+            return <FaNode key={i} style={{height: "50px", width: "50px"}}/>
         case "sql":
             return <SiMysql key={i} style={{height: "50px", width: "50px"}}/>
         case "html":
             return <FaHtml5 key={i} style={{height: "50px", width: "50px"}}/>
-
+        case "SqlLite":
+            return <DiSqllite key={i} style={{height: "50px", width: "50px"}}/>
+        case "bootstrap":
+            return <FaBootstrap key={i} style={{height: "50px", width: "50px"}}/>
     }
 }
 
