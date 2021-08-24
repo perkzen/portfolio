@@ -23,8 +23,6 @@ export const projects = [
     },
 
 
-
-
     {
         title: 'Študenski Servis Bot',
         description: "Python web scraping bot for the job portal \"Študentski Servis\". The bot will scrape all jobs on the site depending on the search parameters you give him. The end results will be displayed in an excel spreadsheet.",
@@ -36,7 +34,7 @@ export const projects = [
 
     {
         title: 'Online shop',
-        description: "This is the first project where I used implemented a full back-end logic. I have learnt a lot about node.js and also about boostrap by making this project. I've also implemented a admin user so he can add and delete products from the shop.",
+        description: "This is the first project where I implemented a full back-end logic. I have learnt a lot about node.js and also about boostrap by making this project. I've also implemented a admin user so he can add and delete products from the shop.",
         tags: ['bootstrap', 'Javascript', 'node.js', "SqlLite"],
         source: 'https://github.com/perkzen/Online_shop',
         id: 4,
