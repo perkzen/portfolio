@@ -1,7 +1,7 @@
 export const projects = [
     {
         title: 'Blockchain Todo List',
-        description: "I made this app using React for front-end and solidity for back-end. Each wallet address that is connected to the website has his own todo list. You can create, delete and toggle your todo items.",
+        description: "I made this app using React for front-end and solidity for back-end. Each wallet address that is connected to the website has its own todo list. You can create, delete and toggle your todo items.",
         tags: ['Solidity', 'React'],
         source: 'https://github.com/perkzen/Blockchain_todo_list',
         id: 0,
@@ -36,8 +36,7 @@ export const projects = [
 
     {
         title: 'Sudoku Solver',
-        description: "This program solves every given sudoku board in record time using the backtracking algorithm. Backtracking is a general algorithm for finding solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds candidates to the solutions, and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to a valid solution.",
-
+        description: "This program solves every given sudoku board in record time using the backtracking algorithm. Backtracking is a general algorithm for finding solutions to some computational problems, notably constraint satisfaction problems.",
         tags: ['Java'],
         source: 'https://github.com/perkzen/sudoku-solver',
         id: 4,
@@ -45,7 +44,6 @@ export const projects = [
     {
         title: 'Tower of Hanoi Solver',
         description: "This program solves the problem called Tower of Hanoi using recursion, it will give you instructionsn for each step that you need to make to win the game. The game is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters. ",
-
         tags: ['Java'],
         source: 'https://github.com/perkzen/Tower_of_Hanoi_solver',
         id: 5,
